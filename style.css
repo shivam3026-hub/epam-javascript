@@ -1,0 +1,64 @@
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.cap-icon{
+    height: 5vh;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.cap-icon:hover{
+    filter: grayscale(0%);
+}
+.input-group-text{
+    background: white;
+    opacity: 0.5;
+}
+.sign-in-button, .fb, .google, .epam{
+    width: 100%;
+}
+.other-options{
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.button-icon{
+    height: 5vh;
+}
+.fb{
+    background: #3b5998;
+    opacity: 0.8;
+}
+.fb:hover{
+    opacity: 1;
+}
+.google{
+    background: #db4a39;
+    opacity: 0.8;
+}
+.google:hover{
+    opacity: 1;
+}
+.epam{
+    background: #a0c334;
+    color: white;
+}
+.custom-width{
+    width: 100vh;
+}
+.outer-align{
+    display: flex;
+    justify-content: center;
+}
+.custom-width{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .outer-align{
+        display: flex;
+    }
+    .custom-width{
+        margin: 0px;
+    }
+}
